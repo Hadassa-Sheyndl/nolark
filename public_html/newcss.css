@@ -1,0 +1,68 @@
+/* 
+Document   : styles.css 
+Description: CSS de démo pour Nolark
+Created on : 21 mai 2024, 13:02:41
+Author     : Hadassa-Sheyndl
+*/
+
+h1 { 
+    color: red; 
+    text-align: center;
+}
+
+.arthema { 
+border-color: cyan; 
+border-style: dotted; 
+} 
+
+header { 
+    background: url('banniere.png') no-repeat scroll center 10px; 
+    height: 100px; 
+} 
+
+nav { float: left; /* Alignement entre éléments */ } 
+nav li { display: inline; /* Mode d’affichage, ici en ligne */ 
+         font-size: 150%; /* Taille de la police */ } 
+nav li a { padding: 10px; /* Marge interne */ 
+           color: white; /* Couleur du texte */ 
+           background-color: black; /* Couleur de l’arrière-plan */ 
+           font-weight: bold; /* Mise en gras du texte */ 
+           text-decoration: none; /* Suppression du soulignement */ } 
+nav li a:hover { color: black; background-color: white; }
+
+#principal { 
+    height: 350px; 
+} 
+#principal article { 
+    padding-top: 10px; 
+    width: 72%; 
+    height: 100%; 
+    text-align: justify; 
+    float: left; 
+} 
+#principal article img { 
+    float: left; 
+}
+
+#principal aside { 
+margin-top: 0; /* Le contenu devra être au plus haut */ 
+background: transparent url('post-it-conseils.png') no-repeat 0 0; 
+vertical-align: top; 
+width: 27%; 
+float: right; 
+height: 100%; 
+}
+
+#principal aside img:first-child{ 
+margin-top: 100px; 
+}
+
+#principal aside img { 
+margin-left:auto; 
+margin-right:auto; 
+clear: both; /* Retour à la ligne des images */ 
+}
+
+#principal aside p { 
+margin-top: 0; 
+} 
